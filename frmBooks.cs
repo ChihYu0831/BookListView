@@ -77,7 +77,6 @@ namespace BookListView
         {
             //取得書名
             string strBookname = b_name[lvwBooks.SelectedIndices[0]];
-            //判斷選取的書名是否已存在借書清單中
             bool exist = lstBorrow.Items.Contains(strBookname);
             if (exist != true) // 若選取的書名不存在借書清單中
             {
