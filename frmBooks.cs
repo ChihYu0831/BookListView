@@ -13,11 +13,11 @@ namespace BookListView
     public partial class frmBooks : Form
     {
         string[] b_name = { "東方快車謀殺案", "追風箏的孩子","龍紋身的女孩","福爾摩斯探案",
-                "沙丘","水滸傳","紅樓夢", "牡丹亭" }; //書名
+                "沙丘","安德的遊戲","別讓我走", "壁花男孩" }; //書名
         string[] author = {"Agatha Christie", "Khaled Hosseini", "Stieg Larsson", "Arthur Conan Doyle",
-                "Frank Herbert","施耐庵", "曹雪芹", "湯顯祖" }; //作者
+                "Frank Herbert","Orson Scott Card", "Kazuo Ishiguro", "Stephen Chbosky" }; //作者
         string[] kind = { "懸疑推理小說", "青春校園小說", "懸疑推理小說", "懸疑推理小說", "科幻小說",
-                "章回小說","章回小說", "戲曲" }; //類別
+                "科幻小說","青春校園小說", "青春校園小說" }; //類別
 
         public frmBooks()
         {
